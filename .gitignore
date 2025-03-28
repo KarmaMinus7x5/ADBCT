@@ -1,0 +1,40 @@
+# --- Общие исключения для Python ---
+
+# Кеши и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи, временные файлы
+*.log
+*.tmp
+
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Папки сборки/дистрибуции
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- PyCharm/IDE ---
+.idea/
+
+# --- DVC ---
+# Кэш DVC и временные файлы (можно добавлять другие пути по необходимости)
+.dvc/cache/
+.dvc/tmp/
+
+# --- Прочие полезные исключения ---
+
+# Файлы Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Системные файлы macOS/Windows
+.DS_Store
+Thumbs.db
